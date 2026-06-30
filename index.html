@@ -27,7 +27,7 @@
                     <h2 class="card-title">Post a Project Idea</h2>
                     <form id="projectForm" onsubmit="saveProject(event)" class="form-stack">
                         <div class="form-group">
-                            <label>Project Title</label>
+                            <label>PROJECT Title</label>
                             <input type="text" id="projTitle" required placeholder="e.g., AI Study Companion">
                         </div>
                         <div class="form-group">
@@ -54,7 +54,7 @@
         <section id="tab-profile" class="tab-content hidden">
             <div class="card card-profile">
                 <h2 class="card-title text-large">My Profile Card</h2>
-                <p class="card-subtitle">List your skills so draft team leaders can find you.</p>
+                <p class="card-subtitle">List your SKILLS so draft team leaders can find you.</p>
                 
                 <form id="profileForm" onsubmit="saveProfile(event)" class="form-stack">
                     <div class="form-group">
@@ -62,6 +62,7 @@
                         <input type="text" id="profName" required>
                     </div>
                     <div class="form-group">
+                        <label>Your Skills (comma separated)</label>
                         <label>Your Skills (comma seperated)</label>
                         <input type="text" id="profSkills" required placeholder="e.g., React, Figma, Python">
                     </div>
